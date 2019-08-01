@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include "dynArray.h"
 
-/*
+
 void assertTrue(int predicate, char *message) 
 {
 	printf("%s: ", message);
@@ -92,4 +92,3 @@ int main(int argc, char* argv[]){
 	return 0;
 }
 
-*/
