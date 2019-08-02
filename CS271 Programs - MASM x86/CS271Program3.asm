@@ -1,17 +1,17 @@
-TITLE Programming Assignment #1     (Program1.asm)
+TITLE Programming Assignment #3     (Program1.asm)
 
 ; Author: Ryan Wells Farran
 ; Last Modified: 04/20/2019 | Saturday, April 20th 2019
 ; OSU email address: farranr@oregonstate.edu
 ; Course number/section: CS 271 400 S2019 (COMPUTER ARCH. & ASSEM. LANGUAGE) 
 ; Project Number: Programming Assignment #2   Due Date: Sunday, 04/21/2019
-; Description: This program displays Fibonacci Numbers. It displays the program title and programmer’s name, 
-; then get the user’s name, and greets the user. Ot then prompts the user to enter the number of Fibonacci 
+; Description: This program displays Fibonacci Numbers. It displays the program title and programmerâ€™s name, 
+; then get the userâ€™s name, and greets the user. Ot then prompts the user to enter the number of Fibonacci 
 ; terms to be displayed and advisse the user to enter an integer in the range [1 .. 46].
 ; Gets and validatse the user input (n)
 ; The program then calculates and displasy all of the Fibonacci numbers up to and including the nth term. 
 ; The results should be displayed 5 terms per line with at least 5 spaces between terms.
-; Finally, the program will display a parting message that includes the user’s name, and terminate the program.
+; Finally, the program will display a parting message that includes the userâ€™s name, and terminate the program.
 
 INCLUDE Irvine32.inc
 
@@ -191,7 +191,7 @@ CalculateAndDisplay:
 	call	Crlf
 	jmp		EndProg
 
-; iv.  a parting message (with the user’s name)
+; iv.  a parting message (with the userâ€™s name)
 
 NoValidEndProg: ; "special" message incase user enters zero valid numbers
 	mov		edx, OFFSET aesthetic_line
