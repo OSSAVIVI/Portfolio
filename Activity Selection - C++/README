@@ -1,0 +1,34 @@
+      _                 _     __          __   _                          
+     /.\       ____    FJ_    LJ  _    _  LJ  FJ_     _    _              
+    //_\\     F ___J. J  _|      J |  | L    J  _|   J |  | L             
+   / ___ \   | |---LJ | |-'   FJ J J  F L FJ | |-'   | |  | |             
+  / L___J \  F L___--.F |__-.J  LJ\ \/ /FJ  LF |__-. F L__J J             
+ J__L   J__LJ\______/F\_____/J__L \\__// J__L\_____/ )-____  L            
+ |__L   J__| J______F J_____F|__|  \__/  |__|J_____FJ\______/F            
+    ___             __                       _     __J______F             
+   F __".   ____    LJ    ____      ____    FJ_    LJ    ____     _ ___   
+  J (___|  F __ J   FJ   F __ J    F ___J. J  _|        F __ J   J '__ J  
+  J\___ \ | _____J J  L | _____J  | |---LJ | |-'   FJ  | |--| |  | |__| | 
+ .--___) \F L___--.J  L F L___--. F L___--.F |__-.J  L F L__J J  F L  J J 
+ J\______J\______/FJ__LJ\______/FJ\______/F\_____/J__LJ\______/FJ__L  J__L
+  J______FJ______F |__| J______F  J______F J_____F|__| J______F |__L  J__|
+ 
+                                                             
+Program Name: Homework 4 Problem 4
+Author: Ryan Wells Farran
+Class: CS 325 400 S2019 (Analysis of Algorithms) | Date: 10/28/2019 | Sunday, October 28th 2019
+
+HOW TO RUN AND COMPILE PROGRAM (for TAs):
+	 STEP 1: Place unzipped file's contents into the desired directory on the School's Flip server.
+			a. Replace the act.txt file with the desired act.txt file in the same directory as the unzipped files
+			b. Alternatively, paste desired data into the existing act.txt file
+ 	 STEP 2: From the directory, type the "make" command and then hit ENTER to compile the program.
+	 STEP 3: From the same directory, type "output" and then hit ENTER to run the program.
+	 STEP 4: After being greeted, enter 1 to START the program or 2 to EXIT the program.
+	 STEP 5: From here the user has three options:
+	 	 1. Activity Selection (last-to-start). 
+	 	 2. Take a break from it all... //Note: this was just put in for fun, although please take a break if needed :)
+	 	 3. QUIT (back to START/EXIT).
+	 STEP 6: After each selection, the user will continue to be prompted to select an option 1 - 3 until 3 is selected.
+	 STEP 7: Have a wonderful day and stay hydrated!
+ 
