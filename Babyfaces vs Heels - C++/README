@@ -1,0 +1,34 @@
+ __        __       ___       __   ___  __  
+|__)  /\  |__) \ / |__   /\  /  ` |__  /__` 
+|__) /~~\ |__)  |  |    /~~\ \__, |___ .__/ 
+                                            
+      __                                    
+\  / /__`                                   
+ \/  .__/                                   
+                                            
+      ___  ___       __                     
+|__| |__  |__  |    /__`                    
+|  | |___ |___ |___ .__/                    
+                               
+                                                             
+Program Name: Homework 5 Problem 3
+Author: Ryan Wells Farran
+Class: CS 325 400 S2019 (Analysis of Algorithms) | Date: 11/11/2019 | Monday, November 11th 2019
+
+HOW TO RUN AND COMPILE PROGRAM (for TAs):
+	 STEP 1: Place unzipped file's contents into the desired directory on the School's Flip server.
+			a. Place the desired test-files in the same directory as the unzipped files' contents
+			b. Alternatively, use one of the four included file names below
+				  i. wwrestler0.txt
+				 ii. wwrestler1.txt
+				iii. wwrestler2.txt
+				 iv. wwrestler3.txt
+ 	 STEP 2: From the directory, type the "make" command and then hit ENTER to compile the program.
+	 STEP 3: From the same directory, type "output" and then hit ENTER to run the program.
+	 STEP 4: After being greeted, enter 1 to START the program or 2 to EXIT the program.
+	 STEP 5: From here the user has three options:
+	 	 1. Babyfaces vs Heels! (wrestling program) 
+	 	 2. Take a break from it all... //Note: this was just put in for fun, although please take a break if needed :)
+	 	 3. QUIT (back to START/EXIT).
+	 STEP 6: After each selection, the user will continue to be prompted to select an option 1 - 3 until 3 is selected.
+	 STEP 7: Have a wonderful day and thank you for grading!

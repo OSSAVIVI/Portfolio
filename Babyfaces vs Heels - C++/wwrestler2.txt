@@ -1,0 +1,18 @@
+6
+Bear
+Macs
+Killer
+Knight
+Duke
+Samson
+5
+Bear Samson
+Killer Bear
+Samson Duke
+Killer Duke
+Macs Knight
+
+// Sample Solution
+Yes Possible
+Babyfaces: Bear Maxx Duke
+Heels: Killer Knight Samson
