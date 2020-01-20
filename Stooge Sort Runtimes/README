@@ -1,0 +1,67 @@
+ ,-.  ,---.  ,-.   ,-.   ,-. ,--.    ,-.   ,-.  ,-.  ,---. . 
+(   `   |   /   \ /   \ /    |      (   ` /   \ |  )   |   | 
+ `-.    |   |   | |   | | -. |-      `-.  |   | |-<    |   | 
+.   )   |   \   / \   / \  | |      .   ) \   / |  \   |     
+ `-'    '    `-'   `-'   `-' `--'    `-'   `-'  '  '   '   o 
+                                                             
+Program Name: Homework 2 Problem 4a & 4b
+Author: Ryan Wells Farran
+Class: CS 325 400 S2019 (Analysis of Algorithms) | Date: 10/13/2019 | Sunday, October 13th 2019
+
+HOW TO RUN AND COMPILE PROGRAM (for TAs):
+	 STEP 1: place unzipped file's contents into the desired directory on the School's Flip server.
+			a. place desired data.txt file into the same directory as the unzipped files
+			b. alternatively, rename the data_example.txt file to data.txt
+ 	 STEP 2: from the directory, type the "make" command and then hit enter to compile the program.
+	 STEP 3: from the same directory, type "output" and then hit enter to run the program.
+	 STEP 4: after being greeted, enter 1 to START or 2 to EXIT the program.
+	 STEP 5: from here the user has three options:
+	 	 1. Sort data.txt using STOOGE SORT.  //NOTE: STOOGE SORT can not sort numbers from data.txt that are greater than 79
+	 	 2. Test STOOGE sort runtimes.
+	 	 3. QUIT (back to START/EXIT).
+	 STEP 6: after each selection, the user will continue to be prompted to select an option 1 - 4 until 4 is selected.
+	 STEP 7: check the directory for the file(s) merge.txt and/or insert.txt to ensure data.txt has been sorted correctly.
+ 
+
+
+REQUIREMENTS (below):
+
+Problem 4: (15 points)
+
+	a) Implement the stooge sort algorithm from Problem 3 to sort an array/vector of integers.
+	Implement the algorithm in the same language you used for the sorting algorithms in HW 1.
+	Your program should be able to read inputs from a file called “data.txt” where the first value of
+	each line is the number of integers that need to be sorted, followed by the integers (like in HW
+		1). The output will be written to a file called “stooge.txt”. 
+
+	b) Modify code - Now that you have verified that your code runs correctly using the data.txt input
+	file, you can modify the code to collect running time data. Instead of reading arrays from the
+	file data.txt and sorting, you will now generate arrays of size n containing random integer values
+	from 0 to 10,000 to sort. Use the system clock to record the running times of each algorithm for
+	ten different values of n for example: n = 5000, 10000, 15000, 20,000, …, 50,000. You may need
+	to modify the values of n if the algorithm runs too fast or too slow to collect the running time
+	data (do not collect times over a minute). Output the array size n and time to the terminal.
+	Name the program stoogeTime.
+	
+	Submit a copy of all your code files and a README file that explains how to compile and run
+	your code in a ZIP file to TEACH. We will only test execution with an input file named data.txt.
+
+
+dP     dP                                         
+88     88                                         
+88aaaaa88a .d8888b. dP   .dP .d8888b.    .d8888b. 
+88     88  88'  `88 88   d8' 88ooood8    88'  `88 
+88     88  88.  .88 88 .88'  88.  ...    88.  .88 
+dP     dP  `88888P8 8888P'   `88888P'    `88888P8 
+oooooooooooooooooooooooooooooooooooooooooooooooooo
+                                                  
+
+ .88888.                               dP      888888ba                    dP 
+d8'   `88                              88      88    `8b                   88 
+88        88d888b. .d8888b. .d8888b. d8888P    88     88 .d8888b. dP    dP 88 
+88   YP88 88'  `88 88ooood8 88'  `88   88      88     88 88'  `88 88    88 dP 
+Y8.   .88 88       88.  ... 88.  .88   88      88    .8P 88.  .88 88.  .88    
+ `88888'  dP       `88888P' `88888P8   dP      8888888P  `88888P8 `8888P88 oo 
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo~~~~.88~ooo
+                                                                   d8888P     
+
