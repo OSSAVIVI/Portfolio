@@ -1,0 +1,16 @@
+Test Case 1
+Total Price 0
+Member Items
+   1:  Couldnt get to work, but info prints to console :(
+See lines 218 - 226 in shopping.cpp
+Test Case 2
+Total Price 0
+Member Items
+   1:  Couldnt get to work, but info prints to console :(
+See lines 218 - 226 in shopping.cpp
+   2:  Couldnt get to work, but info prints to console :(
+See lines 218 - 226 in shopping.cpp
+   3:  Couldnt get to work, but info prints to console :(
+See lines 218 - 226 in shopping.cpp
+   4:  Couldnt get to work, but info prints to console :(
+See lines 218 - 226 in shopping.cpp

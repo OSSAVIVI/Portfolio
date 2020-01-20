@@ -1,0 +1,77 @@
+ __   ___  _____  ___        __         _______        ________     __       ______   __   ___  
+|/"| /  ")(\"   \|"  \      /""\       |   __ "\      /"       )   /""\     /" _  "\ |/"| /  ") 
+(: |/   / |.\\   \    |    /    \      (. |__) :)    (:   \___/   /    \   (: ( \___)(: |/   /  
+|    __/  |: \.   \\  |   /' /\  \     |:  ____/      \___  \    /' /\  \   \/ \     |    __/   
+(// _  \  |.  \    \. |  //  __'  \    (|  /           __/  \\  //  __'  \  //  \ _  (// _  \   
+|: | \  \ |    \    \ | /   /  \\  \  /|__/ \         /" \   :)/   /  \\  \(:   _) \ |: | \  \  
+(__|  \__) \___|\____\)(___/    \___)(_______)       (_______/(___/    \___)\_______)(__|  \__) 
+                                                             
+Program Name: Homework 3 Problem 4
+Author: Ryan Wells Farran
+Class: CS 325 400 S2019 (Analysis of Algorithms) | Date: 10/13/2019 | Sunday, October 13th 2019
+
+HOW TO RUN AND COMPILE PROGRAM (for TAs):
+	 STEP 1: place unzipped file's contents into the desired directory on the School's Flip server.
+			a. place desired shopping.txt file into the same directory as the unzipped files
+			b. alternatively, rename either the _shopping.txt file or the shopping_.txt file to shopping.txt
+ 	 STEP 2: from the directory, type the "make" command and then hit enter to compile the program.
+	 STEP 3: from the same directory, type "output" and then hit enter to run the program.
+	 STEP 4: after being greeted, enter 1 to START or 2 to EXIT the program.
+	 STEP 5: from here the user has three options:
+	 	 1. Run SHOPPING Test Cases.  //NOTE: STOOGE SORT can not sort numbers from data.txt that are greater than 79
+	 	 2. Take a break from it all. //Note: this was just put in for fun, although please take a break if needed :)
+	 	 3. QUIT (back to START/EXIT).
+	 STEP 6: after each selection, the user will continue to be prompted to select an option 1 - 4 until 4 is selected.
+	 STEP 7: check the directory for the file result.txt
+ 
+
+
+REQUIREMENTS (below):
+
+Problem 4: Shopping Spree: (18 points) Acme Super Store is having a contest to give away shopping
+sprees to lucky families. If a family wins a shopping spree each person in the family can take any items
+in the store that he or she can carry out, however each person can only take one of each type of item.
+For example, one family member can take one television, one watch and one toaster, while another
+family member can take one television, one camera and one pair of shoes. Each item has a price (in
+dollars) and a weight (in pounds) and each person in the family has a limit in the total weight they can
+carry. Two people cannot work together to carry an item. Your job is to help the families select items
+for each person to carry to maximize the total price of all items the family takes. Write an algorithm to
+determine the maximum total price of items for each family and the items that each family member
+should select. 
+
+c) Implement your algorithm by writing a program named “shopping” (in C, C++ or Python) that
+compiles and runs on the OSU engineering servers. The program should satisfy the specifications
+below.
+Input: The input file named “shopping.txt” consists of T test cases
+ T (1 ≤ T ≤ 100) is given on the first line of the input file.
+ Each test case begins with a line containing a single integer number N that indicates the number
+of items (1 ≤ N ≤ 100) in that test case
+ Followed by N lines, each containing two integers: P and W. The first integer (1 ≤ P ≤ 5000)
+corresponds to the price of object and the second integer (1 ≤ W ≤ 100) corresponds to the
+weight of object.
+ The next line contains one integer (1 ≤ F ≤ 30) which is the number of people in that family.
+ The next F lines contains the maximum weight (1 ≤ M ≤ 200) that can be carried by the ith person
+in the family (1 ≤ i ≤ F).
+Output: Written to a file named “results.txt”. For each test case your program should output the
+maximum total price of all goods that the family can carry out during their shopping spree and for each
+the family member, numbered 1 ≤ i ≤ F, list the item numbers 1 ≤ N ≤ 100 that they should select. 
+
+
+dP     dP                                         
+88     88                                         
+88aaaaa88a .d8888b. dP   .dP .d8888b.    .d8888b. 
+88     88  88'  `88 88   d8' 88ooood8    88'  `88 
+88     88  88.  .88 88 .88'  88.  ...    88.  .88 
+dP     dP  `88888P8 8888P'   `88888P'    `88888P8 
+oooooooooooooooooooooooooooooooooooooooooooooooooo
+                                                  
+
+ .88888.                               dP      888888ba                    dP 
+d8'   `88                              88      88    `8b                   88 
+88        88d888b. .d8888b. .d8888b. d8888P    88     88 .d8888b. dP    dP 88 
+88   YP88 88'  `88 88ooood8 88'  `88   88      88     88 88'  `88 88    88 dP 
+Y8.   .88 88       88.  ... 88.  .88   88      88    .8P 88.  .88 88.  .88    
+ `88888'  dP       `88888P' `88888P8   dP      8888888P  `88888P8 `8888P88 oo 
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo~~~~.88~ooo
+                                                                   d8888P     
+
